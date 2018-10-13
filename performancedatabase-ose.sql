@@ -48,6 +48,8 @@ INSERT INTO "file-sources" VALUES('2018.10.13_01:40:14','1','not_used','file','f
 INSERT INTO "file-sources" VALUES('2018.10.13_01:41:36','1','not_used','file','file','not_used','poll','100','100','ubuntu-xenial_amd64','ose','3.17','',210000,82,'');
 INSERT INTO "file-sources" VALUES('2018.10.13_02:15:17','1','not_used','file','file','not_used','inotify','100','100','ubuntu-xenial_amd64','ose','3.17','',210000,82,'');
 INSERT INTO "file-sources" VALUES('2018.10.13_02:16:47','1','not_used','file','file','not_used','poll','100','100','ubuntu-xenial_amd64','ose','3.17','',210000,82,'');
+INSERT INTO "file-sources" VALUES('2018.10.13_03:06:24','1','not_used','file','file','not_used','inotify','100','100','ubuntu-xenial_amd64','ose','3.17','',210000,82,'');
+INSERT INTO "file-sources" VALUES('2018.10.13_03:07:50','1','not_used','file','file','not_used','poll','100','100','ubuntu-xenial_amd64','ose','3.17','',210000,82,'');
 CREATE TABLE `sources` ( `date` text, `active_connections` text, `disk_buffer` text, `log_destination` text, `log_source` text, `modifiers` text, `platform` text, `product` text, `version` text, `installed_version` text, `message_rate` integer, `data_rate` integer, `perf_info` text);
 INSERT INTO "sources" VALUES('2018.10.11_09:32:44','10','not_used','file_macro','network_tls','not_used','ubuntu-xenial_amd64','ose','3.17','',639155,239,'');
 INSERT INTO "sources" VALUES('2018.10.11_09:33:25','10','not_used','file_macro','syslog_tcp','not_used','ubuntu-xenial_amd64','ose','3.17','',247033,123,'');
@@ -169,4 +171,9 @@ INSERT INTO "sources" VALUES('2018.10.13_02:11:30','10','not_used','file_macro',
 INSERT INTO "sources" VALUES('2018.10.13_02:13:55','10','not_used','file_macro','syslog_tls','not_used','ubuntu-xenial_amd64','ose','3.17','',248191,123,'');
 INSERT INTO "sources" VALUES('2018.10.13_02:19:19','1','not_used','file','python','not_used','ubuntu-xenial_amd64','ose','3.17','',251496,99,'');
 INSERT INTO "sources" VALUES('2018.10.13_02:21:38','1','not_used','file','python_fetcher','not_used','ubuntu-xenial_amd64','ose','3.17','',141878,56,'');
+INSERT INTO "sources" VALUES('2018.10.13_03:00:09','10','not_used','file_macro','network_tls','not_used','ubuntu-xenial_amd64','ose','3.17','',676578,253,'');
+INSERT INTO "sources" VALUES('2018.10.13_03:02:37','10','not_used','file_macro','syslog_tcp','not_used','ubuntu-xenial_amd64','ose','3.17','',242382,120,'');
+INSERT INTO "sources" VALUES('2018.10.13_03:05:01','10','not_used','file_macro','syslog_tls','not_used','ubuntu-xenial_amd64','ose','3.17','',238008,118,'');
+INSERT INTO "sources" VALUES('2018.10.13_03:10:20','1','not_used','file','python','not_used','ubuntu-xenial_amd64','ose','3.17','',251508,99,'');
+INSERT INTO "sources" VALUES('2018.10.13_03:12:39','1','not_used','file','python_fetcher','not_used','ubuntu-xenial_amd64','ose','3.17','',146138,57,'');
 COMMIT;
